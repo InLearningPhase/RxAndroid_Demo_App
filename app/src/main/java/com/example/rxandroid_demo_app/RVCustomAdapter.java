@@ -66,7 +66,7 @@ public class RVCustomAdapter extends RecyclerView.Adapter<RVCustomAdapter.MyView
         @BindView(R.id.txtDate)
         TextView txtDate;
 
-        private final NumberFormat ENTRY_PRICE_FORMAT = new DecimalFormat("#0.00");
+        private final NumberFormat ENTRY_PRICE_FORMAT = new DecimalFormat("$#0.00");
 
         public void setTxtName(String entryName) {
             this.txtName.setText(entryName);
